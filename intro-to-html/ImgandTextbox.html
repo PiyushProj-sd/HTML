@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat Image Practice</title>
+        <style>
+            .cat-image{
+                width: 200px;
+                border-radius: 10px;
+            }
+            .cat-image-sqr{
+                height: 140px;
+                width: 140px;
+                object-fit:none;
+                object-position: center;
+                object-position: top;
+            }
+            .cat-image-round{
+                height: 150px;
+                width: 150px;
+                border-radius: 100px;
+                object-fit: none;
+                object-position: top;
+            }
+            .search-box{
+                height: 40px;
+                border-radius: 10px;
+                border-color: rgb(213, 207, 207);
+                border-width: 1px;
+                border-style: solid;
+            }
+            .search-box::placeholder{
+                padding-left: 10px;
+                text-align: left;
+            }
+
+            .google-search{
+                height: 40px;
+                width: 400px;
+                border-radius: 30px;
+                border-style: solid;
+                box-shadow: 0 0 5px rgb(173, 156, 156);
+                border: none;  
+                
+            }
+            .google-search::placeholder{
+                padding-left: 15px;
+            }
+            
+            .email-text{
+                color: grey;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 5px;
+
+            }
+            .email{
+                border-radius: 3px;
+                border-style: solid;
+                border-width: 1px;
+                width: 360px;
+                height: 25px;
+                margin-bottom: 5px;
+            }
+
+            .email-button{
+                background-color: rgb(14, 14, 226);
+                border: none;
+                border-radius: 20px;
+                height: 40px;
+                width: 365px;
+                color: white;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                text-align: center;
+                cursor: pointer;
+                font-size: 16px;
+                margin-bottom: 30px;
+
+            }
+            .cat-image-round2{
+                height: 50px;
+                width: 50px;
+                border-radius: 30px;
+                object-position: top;
+                object-fit: cover;
+                vertical-align: middle;
+                
+            }
+            .para{
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(82, 82, 82);
+                margin-right: 50px;
+            }
+
+            .tweet{
+                background-color: rgb(115, 115, 225);
+                border: none;
+                height: 35px;
+                width: 75px;
+                border-radius: 30px;
+                vertical-align: middle;
+                color: white;
+                font-size: 17px;
+                margin-left: 20px;
+                cursor: pointer;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <img class="cat-image-sqr" src="photos/cat.jpg">
+        <img class="cat-image" src="photos/cat.jpg">
+        <img class="cat-image-round" src="photos/cat.jpg">
+
+        <input type="search" placeholder="Search" class="search-box">
+
+        <input type="url" placeholder="Search Google or type a URL" class="google-search">
+        <br>
+        <p class="email-text">Email</p>
+        <input type="email" class="email">
+        <p class="email-text">By Clicking Agree & Join, You Agree to Our Polizies </p>
+        
+        <button class="email-button">Agree & Join</button>
+
+        <br>
+
+
+        <img class="cat-image-round2" src="photos/cat.jpg">
+        <p class="para">What's happening?</p>
+        <button class="tweet">Tweet</button>
+    </body>
+</html>
