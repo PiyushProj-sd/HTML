@@ -3,9 +3,13 @@
     <head>
         <title>Cat Image Practice</title>
         <style>
+            img{
+                margin-right: 30px;
+            }
             .cat-image{
                 width: 200px;
                 border-radius: 10px;
+                
             }
             .cat-image-sqr{
                 height: 140px;
@@ -13,6 +17,7 @@
                 object-fit:none;
                 object-position: center;
                 object-position: top;
+                
             }
             .cat-image-round{
                 height: 150px;
@@ -27,10 +32,9 @@
                 border-color: rgb(213, 207, 207);
                 border-width: 1px;
                 border-style: solid;
-            }
-            .search-box::placeholder{
+                display: block;
+                margin: 40px;
                 padding-left: 10px;
-                text-align: left;
             }
 
             .google-search{
@@ -40,10 +44,9 @@
                 border-style: solid;
                 box-shadow: 0 0 5px rgb(173, 156, 156);
                 border: none;  
-                
-            }
-            .google-search::placeholder{
+                margin: 40px;
                 padding-left: 15px;
+                
             }
             
             .email-text{
@@ -76,11 +79,22 @@
                 margin-bottom: 30px;
 
             }
+            div{
+                box-shadow: 0 0 7px rgb(32,32,32);
+            }
+            .div1{
+                margin: 30px;
+                border: 1px;
+                border-style: solid;
+                padding: 15px;
+                width: 400px;
+                
+            }
             .cat-image-round2{
                 height: 50px;
                 width: 50px;
-                border-radius: 30px;
-                object-position: top;
+                border-radius: 25px;
+                margin: 0;
                 object-fit: cover;
                 vertical-align: middle;
                 
@@ -107,6 +121,11 @@
                 cursor: pointer;
                 font-family: Arial, Helvetica, sans-serif;
                 font-weight: bold;
+                box-shadow: 0 0 5px rgb(14, 14, 226);
+            }
+            .div2{
+                width: 370px;
+                padding: 10px;
             }
         </style>
     </head>
@@ -119,18 +138,22 @@
         <input type="search" placeholder="Search" class="search-box">
 
         <input type="url" placeholder="Search Google or type a URL" class="google-search">
-        <br>
-        <p class="email-text">Email</p>
-        <input type="email" class="email">
-        <p class="email-text">By Clicking Agree & Join, You Agree to Our Polizies </p>
         
-        <button class="email-button">Agree & Join</button>
+        <div class="div1">
+            <p class="email-text">Email</p>
+            <input type="email" class="email">
+            <p class="email-text">By Clicking Agree & Join, You Agree to Our Polizies </p>
+        
+            <button class="email-button">Agree & Join</button>
+        
+        </div>
+        <div class="div2">
+            <img class="cat-image-round2" src="photos/cat.jpg">
+            <p class="para">What's happening?</p>
+            <button class="tweet">Tweet</button>
+        </div>
 
-        <br>
 
-
-        <img class="cat-image-round2" src="photos/cat.jpg">
-        <p class="para">What's happening?</p>
-        <button class="tweet">Tweet</button>
+        
     </body>
 </html>
