@@ -14,18 +14,8 @@
       p{
         font-family: Arial, Helvetica, sans-serif;
       }
-      .matter{
-        height: 50px;
-      }
-      .div2button{
-        height: 20px;
-        margin-bottom: 35px;
-      }
-      
-      .search-bar{
-        height: 50px;
-      
-      }
+
+
 
       .search{
         height: 35px;
@@ -38,12 +28,9 @@
         text-align: left;
         background-color: rgb(20,20,20);
         font-size: 16px;
-        
+        margin-bottom: 20px;
       }
       
-      .search:active{
-        border: none;
-      }
       .video1{
         width: 360px;
         display: inline-block;
@@ -51,11 +38,6 @@
         margin-right: 5px;
       }
 
-      .channel-picture,
-      .channel-para{
-        display: inline-block;
-      }
-      
       .channel-picture{
         height: 50px;
         width: 50px;
@@ -67,11 +49,6 @@
         height: 50px;
         border-radius: 25px;
         margin-top: 10px;
-      }
-      .channel-para{
-        width: 290px;
-        margin-left: 10px;
-
       }
 
       .txt1{
@@ -93,80 +70,91 @@
         margin-top: 5px;
       }
       
+      .div-grid{
+        display: grid;
+        grid-template-columns: 60px 1fr;
+      }
     </style>
     
   </head>
   <body>
 
-    <div class="search-bar">
+    <div>
       <input type="text" class="search" placeholder="Search">
     </div>
 
     <div class="video1">
       <div>
-        <img class="photos" src="thumbnails/photo1.jpg">
+        <img src="thumbnails/photo1.jpg">
       </div>
-      <div class="channel-picture">
-        <img src="profile-picture/channel-2.jpeg" class="channel">
-      </div>
-      <div class="channel-para">
-        <p class="txt1">
-          HTML & CSS Full Course - beginner to Pro 
-        </p>
+      <div class="div-grid">
+        <div class="channel-picture">
+          <img src="profile-picture/channel-2.jpeg" class="channel">
+        </div>
+        <div class="channel-para">
+          <p class="txt1">
+            HTML & CSS Full Course - beginner to Pro 
+          </p>
 
-        <p class="txt2">
-          SuperSimpleDev
-        </p>
+          <p class="txt2">
+            SuperSimpleDev
+          </p>
 
-        <p class="txt3">
-         19m views &#183; 4 years ago
-        < /p>
-      </div> 
-    </div>
-
-    <div class="video1">
-      <div>
-        <img class="photos" src="thumbnails/hq720.avif">
-      </div>
-      <div class="channel-picture">
-        <img src="profile-picture/channels-4.jpg" class="channel">
-      </div>
-      <div class="channel-para">
-        <p class="txt1">
-          Don't Ask Parents For Money Again, Earn While In College
-        </p>
-
-        <p class="txt2">
-          Not Your College
-        </p>
-
-        <p class="txt3">
-          115k views &#183; 1 month ago
-        </p>        
+          <p class="txt3">
+          19m views &#183; 4 years ago
+          < /p>
+        </div> 
       </div>
     </div>
 
     <div class="video1">
       <div>
-        <img class="photos" src="thumbnails/photo4.jpg">
+        <img src="thumbnails/hq720.avif">
       </div>
-      <div class="channel-picture">
-        <img src="profile-picture/channels-3.jpg" class="channel">
-      </div>
-      <div class="channel-para">
-        <p class="txt1">
-          Howl's Moving Castle - Merry go round of life cover
-          by Grissini Project
-        </p>
+      <div class="div-grid">
+        <div class="channel-picture">
+          <img src="profile-picture/channels-4.jpg" class="channel">
+        </div>
+        <div class="channel-para">
+          <p class="txt1">
+            Don't Ask Parents For Money Again, Earn While In College
+          </p>
 
-        <p class="txt2">
-          Grissini Project
-        </p>
+          <p class="txt2">
+            Not Your College
+          </p>
 
-        <p class="txt3">
-          92m views &#183; 7 years ago
-        </p>        
+          <p class="txt3">
+            115k views &#183; 1 month ago
+          </p>        
+        </div>
       </div>
+    </div>
+
+    <div class="video1">
+      <div>
+        <img src="thumbnails/photo4.jpg">
+      </div>
+      <div class="div-grid">
+        <div class="channel-picture">
+          <img src="profile-picture/channels-3.jpg" class="channel">
+        </div>
+        <div class="channel-para">
+          <p class="txt1">
+            Howl's Moving Castle - Merry go round of life cover
+            by Grissini Project
+          </p>
+
+          <p class="txt2">
+            Grissini Project
+          </p>
+
+          <p class="txt3">
+            92m views &#183; 7 years ago
+          </p>        
+        </div>
+      </div>
+
     </div>
 
 
