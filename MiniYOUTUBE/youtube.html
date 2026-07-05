@@ -3,6 +3,9 @@
   <head>
     <title>YouTube Mini</title>
     <style>
+      body{
+        background-color: black;
+      }
       img{
         height: 200px;
         border-radius: 15px;
@@ -25,20 +28,19 @@
       }
 
       .search{
-        height: 30px;
+        height: 35px;
+        width: 600px;
         border-radius: 24px;
-        border-color: rgb(149, 140, 140);
+        border-color: rgb(60, 59, 59);
         border-style: solid;
         border-width: 1px;
-        padding-left: 12px;
+        padding-left: 15px;
         text-align: left;
-        
-        
-      }
-      .search::placeholder{
+        background-color: rgb(20,20,20);
         font-size: 16px;
         
       }
+      
       .search:active{
         border: none;
       }
@@ -47,6 +49,48 @@
         display: inline-block;
         vertical-align: top;
         margin-right: 5px;
+      }
+
+      .channel-picture,
+      .channel-para{
+        display: inline-block;
+      }
+      
+      .channel-picture{
+        height: 50px;
+        width: 50px;
+        vertical-align: top;
+        
+      }
+      .channel{
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-top: 10px;
+      }
+      .channel-para{
+        width: 290px;
+        margin-left: 10px;
+
+      }
+
+      .txt1{
+        margin-bottom: 0;
+        font-weight: solid;
+        color: white;
+      }
+
+      .txt2{
+        color: rgb(172, 171, 171);
+        font-size: small;
+        margin-bottom: 0;
+        margin-top: 10px;
+      }
+
+      .txt3{
+        color: rgb(172, 171, 171);
+        font-size: small;
+        margin-top: 5px;
       }
       
     </style>
@@ -59,34 +103,72 @@
     </div>
 
     <div class="video1">
-      <img class="photos" src="thumbnails/photo1.jpg">
-      <p class="txt11">
-        HTML & CSS Full Course - beginner to Pro
-      </p>
+      <div>
+        <img class="photos" src="thumbnails/photo1.jpg">
+      </div>
+      <div class="channel-picture">
+        <img src="profile-picture/channel-2.jpeg" class="channel">
+      </div>
+      <div class="channel-para">
+        <p class="txt1">
+          HTML & CSS Full Course - beginner to Pro 
+        </p>
 
-      <p>
-        SuperSimpleDev
-      </p>
+        <p class="txt2">
+          SuperSimpleDev
+        </p>
 
-      <p>
-        19m views &#183; 4 years ago
-      </p>
+        <p class="txt3">
+         19m views &#183; 4 years ago
+        < /p>
+      </div> 
     </div>
 
     <div class="video1">
-      <img class="photos" src="thumbnails/hq720.avif">
-      <p class="txt11">
-        Don't Ask Parents For Money Again, Earn While In College
-      </p>
+      <div>
+        <img class="photos" src="thumbnails/hq720.avif">
+      </div>
+      <div class="channel-picture">
+        <img src="profile-picture/channels-4.jpg" class="channel">
+      </div>
+      <div class="channel-para">
+        <p class="txt1">
+          Don't Ask Parents For Money Again, Earn While In College
+        </p>
 
-      <p>
-        Not Your College
-      </p>
+        <p class="txt2">
+          Not Your College
+        </p>
 
-      <p>
-        115k views &#183; 1 month ago
-      </p>
+        <p class="txt3">
+          115k views &#183; 1 month ago
+        </p>        
+      </div>
     </div>
+
+    <div class="video1">
+      <div>
+        <img class="photos" src="thumbnails/photo4.jpg">
+      </div>
+      <div class="channel-picture">
+        <img src="profile-picture/channels-3.jpg" class="channel">
+      </div>
+      <div class="channel-para">
+        <p class="txt1">
+          Howl's Moving Castle - Merry go round of life cover
+          by Grissini Project
+        </p>
+
+        <p class="txt2">
+          Grissini Project
+        </p>
+
+        <p class="txt3">
+          92m views &#183; 7 years ago
+        </p>        
+      </div>
+    </div>
+
 
   </body>
 </html>
