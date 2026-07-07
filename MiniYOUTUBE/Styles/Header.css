@@ -1,10 +1,32 @@
 .header{
   display: flex;
   flex-direction: row;
-  border-width: 1px;
-  border-color: grey;
-  border-style: solid;
   height: 70px;
-  justify-content: space-between;
   justify-content: center;
+  justify-content: space-between;
+  flex: 1;
+}
+.header-middle{
+  background-color: white;
+}
+
+.search{
+  background-color: rgb(18,18,18);
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+  padding-left: 20px;
+  font-size: 16px;
+  border-width: 1px;
+  border-color: rgb(46, 46, 46);
+  border-style: solid;
+  color: white;
+}
+
+.header-left{
+  background-color: yellow;
+}
+
+.header-right{
+  background-color: red;
 }
