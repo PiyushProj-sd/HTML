@@ -1,37 +1,110 @@
 .header{
   display: flex;
   flex-direction: row;
-  height: 50px;
+  height: 57px;
   justify-content: space-between;
-  
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .header-middle{
-  background-color: white;
   flex: 1;
-  margin-left: 70px;
-  margin-right: 35px;
-  max-width: 500px;
+  max-width: 650px;
+  display: flex;
+  
 }
 
 .search{
-  background-color: rgb(18,18,18);
+  background-color: white;
   height: 40px;
-  width: 450px;
+  width: 530px;
   border-radius: 30px;
   padding-left: 20px;
   font-size: 16px;
   border-width: 1px;
-  border-color: rgb(46, 46, 46);
+  border-color: rgb(241, 237, 237);
   border-style: solid;
-  color: white;
+  color: rgb(0, 0, 0);
+  border-start-end-radius: 0;
+  border-end-end-radius: 0;
 }
 
 .header-left{
-  background-color: yellow;
-  width: 150px;
+  width: 170px;
+  display: flex;
+  
 }
 
 .header-right{
-  background-color: red;
-  width: 200px;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-icon{
+  height: 21px;
+  width:21px;
+  border: none;
+  padding: 5px;
+}
+.menu-icon:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+.youtube-logo{
+  border: none;
+  height: 21px;
+  border-radius: 0;
+  width: 125px;
+  padding-top: 5px;
+}
+
+.logo{
+  height: 28x;
+  width: 28px;
+  border: none;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.logo:hover{
+  background-color: rgb(235, 235, 235);
+}
+
+.profile-photo{
+  height: 30px;
+  padding: 5px;
+  border: none;
+  width: 30px;
+  border-radius: 30px;
+
+}
+
+.voice-search{
+  height: 31px;
+  width: auto;
+  border: none;
+  padding: 5px;
+  background-color: rgb(241, 237, 237);
+  border-radius: 30px;
+  margin-left: 15px;
+  margin-top: 2px;
+}
+.voice-search:hover{
+  opacity: 0.6;
+}
+
+.search-icon{
+  height:32px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: auto;
+  border-radius: 30px;
+  border-start-start-radius: 0;
+  border-end-start-radius: 0;
+  background-color: rgb(241, 237, 237);
+  padding-right: 15px;
+  padding-left: 15px;
+  border-color:rgb(241, 237, 237);
 }
