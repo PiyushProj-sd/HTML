@@ -14,6 +14,7 @@
   border-bottom-width: 1px;
   border-bottom-color: rgb(224, 224, 224);
   border-bottom-style: solid;
+  z-index: 1;
 }
 .header-middle{
   flex: 1;
