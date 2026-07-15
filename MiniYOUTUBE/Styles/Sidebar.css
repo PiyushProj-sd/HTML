@@ -1,8 +1,10 @@
-.sidebardiv{
-  display: grid;
-  grid-template-columns: 240px 1fr;
-}
-
 .sidebar{
+  position: fixed;
   margin-top: 60px;
+  z-index: 1;
+  background-color: white;
+  bottom: 0;
+  top: -5px;
+  left: 0;
+  width: 230px;
 }
