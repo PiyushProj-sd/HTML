@@ -122,12 +122,3 @@
   padding-left: 15px;
   border-color:rgb(220,220,220);
 }
-
-.sidebardiv{
-  display: grid;
-  grid-template-columns: 240px 1fr;
-}
-
-.sidebar{
-  margin-top: 60px;
-}
