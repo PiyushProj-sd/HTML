@@ -1,0 +1,8 @@
+.sidebardiv{
+  display: grid;
+  grid-template-columns: 240px 1fr;
+}
+
+.sidebar{
+  margin-top: 60px;
+}
