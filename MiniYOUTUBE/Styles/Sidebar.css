@@ -4,9 +4,24 @@
   z-index: 1;
   background-color: white;
   bottom: 0;
-  top: -5px;
+  top: -3px;
   left: 0;
-  width: 230px;
+  width: 240px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar::-webkit-scrollbar{
+  width: 6px;
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.sidebar:hover::-webkit-scrollbar-thumb{
+  background-color: rgba(0,0,0,0.3);
 }
 .sidebar-div1{
   padding: 14px;
