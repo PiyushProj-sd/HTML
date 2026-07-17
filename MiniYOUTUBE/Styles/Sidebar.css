@@ -80,3 +80,20 @@
   font-weight: bold;
   
 }
+
+.sidebar-para{
+  font-size: small;
+  color: grey;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+
+.sidebar-para2{
+  font-size: small;
+  color: rgb(166, 166, 166);
+  margin-top: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
