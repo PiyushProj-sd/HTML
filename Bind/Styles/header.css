@@ -10,6 +10,10 @@
   bottom: 0;
   width: 65px;
   padding-top: 8px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(188, 188, 188);
+  z-index: 2;
 }
 
 .header-top{
