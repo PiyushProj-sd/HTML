@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  margin-top: 20%;
+  padding: 1em 3em;
+  font-size: 1.8rem;
+  color: rgb(67, 67, 67);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background: linear-gradient(to right, rgb(255, 255, 36), rgb(255, 255, 142));
+  border: none;
+  border-radius: 2px;
+  position: relative;
+  z-index: 0;
+}
+
+button::after{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(to right, rgb(255, 0, 255), purple);
+  border-radius: 2px;
+  transition: 200ms ;
+}
+
+button:hover::after{
+  width: 100%;
+}
+
+button:hover{
+  cursor: pointer;
+  color: white;
+  transition: 350ms ease-in-out;
+}
+
+button:active{
+  opacity: 0.8;
+}
