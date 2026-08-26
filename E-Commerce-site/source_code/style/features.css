@@ -1,0 +1,44 @@
+#features{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 4rem;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+#features div{
+  border: 1px solid rgb(201, 197, 197);
+  padding: 1.5rem 1rem;
+  border-radius: .3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+}
+
+.feature-button{
+  background-color: var(--accent-clr);
+  color: rgb(255, 101, 127);
+  font-weight: bold;
+  padding: .3rem .5rem;
+  border: none;
+  border-radius: .3rem;
+  position: relative;
+}
+
+.feature-button span{
+  color: var(--accent-clr);
+  position: relative;
+}
+
+.feature-button::before,
+.feature-button span::before{
+  content: attr(data-source);
+  position: absolute;
+}
+
+#features article{
+  display: inline-block;
+}
