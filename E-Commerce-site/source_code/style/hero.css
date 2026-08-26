@@ -1,0 +1,32 @@
+#hero{
+  background-color: rgba(0, 0, 0, 0.020);
+  background-image: url("../bag/hero4.png");
+  height: 91vh;
+  width: 100%;
+  background-position: top 25% right 10%;
+  background-size: cover;
+  padding: 13rem 4.2rem;
+}
+
+#hero h2{
+  font-size: 2.6rem;
+  padding-top: .3rem;
+}
+
+#hero h1{
+  font-size: 2.8rem;
+  color: #088178;
+}
+
+#hero p{
+  color: #088178;
+}
+
+button{
+  background-image: url(../bag/button.png);
+  background-size: cove;
+  padding: 1rem 5.3rem;
+  background-color: transparent;
+  border: none;
+
+}
