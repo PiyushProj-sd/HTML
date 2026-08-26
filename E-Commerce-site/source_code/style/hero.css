@@ -22,7 +22,7 @@
   color: #088178;
 }
 
-button{
+#hero button{
   background-image: url(../bag/button.png);
   background-size: cove;
   padding: 1rem 5.3rem;
