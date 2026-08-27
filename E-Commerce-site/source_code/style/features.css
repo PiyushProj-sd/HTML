@@ -16,7 +16,11 @@
   align-items: center;
   gap: 1rem;
   width: 20%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+}
+
+#features div:hover{
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .12);
 }
 
 #features div img{
@@ -25,8 +29,7 @@
 }
 
 .feature-button{
-  background-color: var(--accent-clr);
-  color: rgb(255, 101, 127);
+  background-color: var(--bg-clr, #f3f4f6);
   font-weight: bold;
   padding: .3rem .5rem;
   border: none;
@@ -34,15 +37,14 @@
   position: relative;
 }
 
-.feature-button span{
-  color: var(--accent-clr);
-  position: relative;
+.feature-button:hover{
+  opacity: .7;
+  padding: .5rem .7rem;
+  cursor: pointer;
 }
 
-.feature-button::before,
-.feature-button span::before{
-  content: attr(data-source);
-  position: absolute;
+.feature-button span{
+  color: rgb(74, 73, 73);
 }
 
 #features article{
@@ -62,5 +64,5 @@
 }
 
 #product1 p{
-   color: rgb(39, 39, 39);
+   color: rgb(72, 160, 84);
 }
